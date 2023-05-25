@@ -1,0 +1,67 @@
+main > h2{
+    margin:30px max(20%,100px);
+    border:groove darkblue;
+    border-width:2px 0;
+    text-align:center;
+    color:darkblue;
+    font-size:40px;
+}
+
+#download-content{
+    display:block;
+    width:180px;
+    margin:30px auto;
+    border:3px outset darkblue;
+    border-radius:20px;
+    padding:10px;
+    text-decoration:none;
+    background:rgba(200,200,200,0.2);
+}
+
+#download-content:hover{
+    font-weight:bold;
+}
+
+#download-content:active{
+    border-style:inset;
+}
+
+#download-content > div{
+    text-align:center;
+    color:darkblue;
+}
+
+#download-name{
+    font-size:25px;
+}
+
+#download-version{
+    font-size:15px;
+}
+
+#package-download{
+    display:flex;
+    justify-content:center;
+    width:max(900px,80%);
+    margin:30px auto;
+    border-radius:30px;
+    padding:20px;
+    background:rgb(245,245,245);
+}
+
+#package-download > a{
+    display:inline-block;
+    width:150px;
+    margin:10px;
+    border:2px solid darkblue;
+    border-radius:20px;
+    padding:10px;
+    text-align:center;
+    text-decoration:none;
+    color:darkblue;
+    background:rgba(200,200,200,0.2);
+}
+
+#package-download > a:hover{
+    font-weight:bold;
+}

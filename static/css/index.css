@@ -1,0 +1,14 @@
+main{
+    margin:30px min(50px,20%);
+    border:6px double green;
+    border-radius:10px;
+    padding:20px;
+}
+
+main > h2{
+    text-align:center;
+}
+
+main > p{
+    text-indent:2em;
+}
