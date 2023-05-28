@@ -1,12 +1,3 @@
-main > h2{
-    margin:30px max(20%,100px);
-    border:groove darkblue;
-    border-width:2px 0;
-    text-align:center;
-    color:darkblue;
-    font-size:40px;
-}
-
 #download-content{
     display:block;
     width:180px;
@@ -42,11 +33,6 @@ main > h2{
 #package-download{
     display:flex;
     justify-content:center;
-    width:max(900px,80%);
-    margin:30px auto;
-    border-radius:30px;
-    padding:20px;
-    background:rgb(245,245,245);
 }
 
 #package-download > a{
@@ -63,5 +49,19 @@ main > h2{
 }
 
 #package-download > a:hover{
+    font-weight:bold;
+}
+
+#help{
+    text-align:center;
+}
+
+#help > a{
+    text-decoration:none;
+    color:darkblue;
+    font-size:20px;
+}
+
+#help > a:hover{
     font-weight:bold;
 }

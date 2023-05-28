@@ -1,0 +1,51 @@
+.help-text > h4{
+    width:max(30%,150px);
+    border-bottom:1px solid black;
+    padding:5px;
+    text-indent:20px;
+    font-size:25px;
+}
+
+.help-text p{
+    margin:10px 0;
+    text-indent:0;
+}
+
+.help-text code{
+    display:inline-block;
+    margin:0 3px;
+    border-radius:5px;
+    padding:3px 5px;
+    text-indent:0;
+    background:rgb(230,230,230);
+}
+
+.help-text pre{
+    margin:10px;
+}
+
+.help-text pre > code{
+    border-radius:0;
+    padding:10px;
+    font-size:15px;
+}
+
+.help-text ul,.help-text ol{
+    margin-left:40px;
+}
+
+.help-text table{
+    margin:10px auto;
+    border:2px solid darkblue;
+    border-collapse:collapse;
+}
+
+.help-text table caption{
+    margin:5px;
+}
+
+.help-text table th,.help-text table td{
+    border:1px solid darkblue;
+    padding:5px;
+    text-align:center;
+}
